@@ -322,6 +322,7 @@
             margin-bottom: 25px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -602,172 +603,176 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Data Science Student & <span>Aspiring AI Researcher</span></h1>
-                    <p>Transforming raw data into intelligent insights through machine learning, deep learning, and AI innovation.</p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn">View My Projects</a>
-                        <a href="#skills" class="btn btn-outline">Explore My Skills</a>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Data Science Student & <span>Aspiring AI Researcher</span></h1>
+                        <p>Transforming raw data into intelligent insights through machine learning, deep learning, and AI innovation.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn">View My Projects</a>
+                            <a href="#skills" class="btn btn-outline">Explore My Skills</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>About Me</h2>
-                <p>Get to know my journey in data science and AI</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Hello! I'm Ayush Vishwakarma</h3>
-                    <p>I'm a BCA Data Science student passionate about turning data into impactful insights through programming, machine learning, and AI research.</p>
-                    <p>I have a solid foundation in Python and Java, with hands-on experience in machine learning and natural language processing (NLP). I've worked on tasks like classification, regression, and basic text processing. I'm also skilled with tools like Power BI for dashboards and MySQL for data handling.</p>
-                    <p>Currently, I'm deepening my understanding of deep learning — exploring neural networks and gradually learning about advanced topics like CNNs and LSTMs, especially how they're applied in NLP and time series tasks.</p>
-                    <p>I enjoy building projects that combine technical skills with real-world applications — from predictive models to interactive data dashboards. I'm continuously learning and improving through practical projects, online courses, and open-source contributions.</p>
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                    <p>Get to know my journey in data science and AI</p>
                 </div>
-                <div class="about-image floating">
-                    <img src="images\profilePhoto.jpg" alt="Data Science and AI">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Hello! I'm Ayush Vishwakarma</h3>
+                        <p>I'm a BCA Data Science student passionate about turning data into impactful insights through programming, machine learning, and AI research.</p>
+                        <p>I have a solid foundation in Python and Java, with hands-on experience in machine learning and natural language processing (NLP). I've worked on tasks like classification, regression, and basic text processing. I'm also skilled with tools like Power BI for dashboards and MySQL for data handling.</p>
+                        <p>Currently, I'm deepening my understanding of deep learning — exploring neural networks and gradually learning about advanced topics like CNNs and LSTMs, especially how they're applied in NLP and time series tasks.</p>
+                        <p>I enjoy building projects that combine technical skills with real-world applications — from predictive models to interactive data dashboards. I'm continuously learning and improving through practical projects, online courses, and open-source contributions.</p>
+                    </div>
+                    <div class="about-image floating">
+                        <!-- Fixed image path: backslash (\) changed to forward slash (/) -->
+                        <img src="images/profilePhoto.jpg" alt="Ayush Vishwakarma - Data Science and AI Student">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Skills</h2>
-                <p>Technical proficiencies in data science and AI</p>
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Skills</h2>
+                    <p>Technical proficiencies in data science and AI</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">R</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data Analysis & Visualization</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Data Analysis</span>
+                            <span class="skill-tag">Data Visualization</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Exploratory Data Analysis</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <i class="fas fa-brain"></i>
+                        <h3>Machine Learning & AI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">Natural Language Processing</span>
+                            <span class="skill-tag">Neural Networks</span>
+                            <span class="skill-tag">Predictive Modeling</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Jupyter Notebooks</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Keras</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <i class="fas fa-code"></i>
-                    <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">R</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Data Analysis & Visualization</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Data Analysis</span>
-                        <span class="skill-tag">Data Visualization</span>
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">Exploratory Data Analysis</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <i class="fas fa-brain"></i>
-                    <h3>Machine Learning & AI</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Machine Learning</span>
-                        <span class="skill-tag">Deep Learning</span>
-                        <span class="skill-tag">Natural Language Processing</span>
-                        <span class="skill-tag">Neural Networks</span>
-                        <span class="skill-tag">Predictive Modeling</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <i class="fas fa-tools"></i>
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">Jupyter Notebooks</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Scikit-learn</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">Keras</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Projects</h2>
-                <p>Data science and machine learning projects I've developed</p>
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Projects</h2>
+                    <p>Data science and machine learning projects I've developed</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="images/RealEstateSales.webp" alt="Real Estate Price Prediction" class="project-image">
+                        <div class="project-info">
+                            <h3>Real Estate Sales Price Prediction</h3>
+                            <p>Built an end-to-end machine learning pipeline to predict real estate prices using CatBoost and XGBoost. Performed comprehensive data cleaning, EDA, and feature engineering to deliver accurate price predictions.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Machine Learning</span>
+                                <span class="project-tag">CatBoost</span>
+                                <span class="project-tag">XGBoost</span>
+                                <span class="project-tag">EDA</span>
+                            </div>
+                            <div class="project-links">
+                                <!-- FIXED: href attribute now contains the correct GitHub URL -->
+                                <a href="https://github.com/AyushVishwakarma21/Real-Estate-Sales-Prediction-Project"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <img src="images/StudentsPerformance.webp" alt="Student Performance Prediction" class="project-image">
+                        <div class="project-info">
+                            <h3>Student Performance Prediction</h3>
+                            <p>Engineered a machine learning pipeline to predict student academic outcomes. Implemented and compared multiple regression models including Linear Regression, Decision Tree, and Random Forest with cross-validation.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Machine Learning</span>
+                                <span class="project-tag">Regression</span>
+                                <span class="project-tag">Scikit-learn</span>
+                                <span class="project-tag">Data Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <!-- FIXED: href attribute now contains the correct GitHub URL -->
+                                <a href="https://github.com/AyushVishwakarma21/Student-Performance-Prediction-Using-Machine-Learning"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <img src="images/healthcare.webp" alt="Breast Cancer Prediction" class="project-image">
+                        <div class="project-info">
+                            <h3>Breast Cancer Prediction</h3>
+                            <p>Developed a comprehensive ML pipeline to classify tumors as malignant or benign using the Wisconsin Breast Cancer dataset. Implemented Logistic Regression, SVM, KNN, and Random Forest algorithms with performance evaluation metrics.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">Classification</span>
+                                <span class="project-tag">Healthcare</span>
+                                <span class="project-tag">Scikit-learn</span>
+                                <span class="project-tag">Data Visualization</span>
+                            </div>
+                            <div class="project-links">
+                                <!-- FIXED: href attribute now contains the correct GitHub URL -->
+                                <a href="https://github.com/AyushVishwakarma21/Breast-Cancer-Analysis-Using-Machine-Learning"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="images\RealEstateSales.webp" alt="Real Estate Price Prediction" class="project-image">
-                    <div class="project-info">
-                        <h3>Real Estate Sales Price Prediction</h3>
-                        <p>Built an end-to-end machine learning pipeline to predict real estate prices using CatBoost and XGBoost. Performed comprehensive data cleaning, EDA, and feature engineering to deliver accurate price predictions.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">Machine Learning</span>
-                            <span class="project-tag">CatBoost</span>
-                            <span class="project-tag">XGBoost</span>
-                            <span class="project-tag">EDA</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="https://github.com/AyushVishwakarma21/Real-Estate-Sales-Prediction-Project"></i> GitHub</a>
-                            <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <img src="images\StudentsPerformance.webp" alt="Student Performance Prediction" class="project-image">
-                    <div class="project-info">
-                        <h3>Student Performance Prediction</h3>
-                        <p>Engineered a machine learning pipeline to predict student academic outcomes. Implemented and compared multiple regression models including Linear Regression, Decision Tree, and Random Forest with cross-validation.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">Machine Learning</span>
-                            <span class="project-tag">Regression</span>
-                            <span class="project-tag">Scikit-learn</span>
-                            <span class="project-tag">Data Analysis</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="https://github.com/AyushVishwakarma21/Student-Performance-Prediction-Using-Machine-Learning"></i> GitHub</a>
-                            <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <img src="images\healthcare.webp" alt="Breast Cancer Prediction" class="project-image">
-                    <div class="project-info">
-                        <h3>Breast Cancer Prediction</h3>
-                        <p>Developed a comprehensive ML pipeline to classify tumors as malignant or benign using the Wisconsin Breast Cancer dataset. Implemented Logistic Regression, SVM, KNN, and Random Forest algorithms with performance evaluation metrics.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">Classification</span>
-                            <span class="project-tag">Healthcare</span>
-                            <span class="project-tag">Scikit-learn</span>
-                            <span class="project-tag">Data Visualization</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="https://github.com/AyushVishwakarma21/Breast-Cancer-Analysis-Using-Machine-Learning"></i> GitHub</a>
-                            <!-- <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer - Only GitHub and LinkedIn -->
+    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -783,7 +788,8 @@
                     </a>
                 </div>
                 
-                <p class="copyright">&copy; 2023 Ayush Vishwakarma. All rights reserved.</p>
+                <!-- Dynamic Copyright Year using JavaScript -->
+                <p class="copyright">&copy; <span id="current-year">2023</span> Ayush Vishwakarma. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -812,6 +818,9 @@
             const hero = document.querySelector('.hero');
             hero.style.backgroundPosition = `center ${scrolled * 0.4}px`;
         });
+
+        // Dynamic Copyright Year Update
+        document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 </body>
 </html>
